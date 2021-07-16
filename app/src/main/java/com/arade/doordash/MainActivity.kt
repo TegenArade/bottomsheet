@@ -3,7 +3,7 @@ package com.arade.doordash
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import com.arade.doordash.bottomsheet.showBottomSheetDialog
+import com.arade.bottomsheet.showBottomSheetDialog
 import com.arade.doordash.databinding.*
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 

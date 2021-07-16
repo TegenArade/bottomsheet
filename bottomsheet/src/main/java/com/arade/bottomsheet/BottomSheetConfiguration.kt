@@ -1,4 +1,4 @@
-package com.arade.doordash.bottomsheet
+package com.arade.bottomsheet
 
 /**
  * This is a configuration object used to set configurable properties of the bottom sheet.

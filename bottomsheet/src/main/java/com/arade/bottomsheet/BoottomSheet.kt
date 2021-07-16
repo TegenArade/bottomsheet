@@ -1,11 +1,11 @@
-package com.arade.doordash.bottomsheet
+package com.arade.bottomsheet
 
 
 import android.util.DisplayMetrics
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.doOnNextLayout
-import com.arade.doordash.databinding.BottomSheetBinding
+import com.arade.bottomsheet.databinding.BsBottomSheetBinding
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 
@@ -49,7 +49,7 @@ fun AppCompatActivity.showBottomSheetDialog(
     callback: BottomSheetBehavior.BottomSheetCallback? = null,
 ) {
 
-    BottomSheetBinding.inflate(layoutInflater).apply {
+    BsBottomSheetBinding.inflate(layoutInflater).apply {
         setBody(body, configuration.body)
         setHeader(this@showBottomSheetDialog, titleText, subTitleText, configuration.header)
         BottomSheetDialog(this@showBottomSheetDialog).apply {
@@ -71,7 +71,7 @@ fun AppCompatActivity.showBottomSheetDialog(
 /**
  * Setting the body of the bottom sheet
  */
-private fun BottomSheetBinding.setBody(
+private fun BsBottomSheetBinding.setBody(
     body: View,
     configuration: BottomSheetConfiguration.BodyConfiguration
 ) {
@@ -81,7 +81,7 @@ private fun BottomSheetBinding.setBody(
 /**
  * Setting the header of the bottom sheet
  */
-private fun BottomSheetBinding.setHeader(
+private fun BsBottomSheetBinding.setHeader(
     activity: AppCompatActivity,
     titleText: String,
     subTitleText: String,
