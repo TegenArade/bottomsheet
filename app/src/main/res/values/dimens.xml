@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<resources>
+
+    <dimen name="grid_0_5">4dp</dimen>
+    <dimen name="grid_1">8dp</dimen>
+    <dimen name="grid_1_5">12dp</dimen>
+    <dimen name="grid_2">16dp</dimen>
+    <dimen name="grid_3">24dp</dimen>
+    <dimen name="grid_4">32dp</dimen>
+
+
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="small_component_top_radius">8dp</dimen>
+    <dimen name="small_component_bottom_radius">8dp</dimen>
+    <dimen name="medium_component_top_radius">8dp</dimen>
+    <dimen name="medium_component_bottom_radius">8dp</dimen>
+    <dimen name="large_component_top_radius">16dp</dimen>
+    <dimen name="large_component_bottom_radius">16dp</dimen>
+
+</resources>
